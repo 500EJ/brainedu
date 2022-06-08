@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  row-gap: 20px;
+  text-align: center;
+}
+
+.quiz-button {
+  background-color: lightgreen;
+  border: 1px solid black;
+  font-size: 20px;
+  height: 40px;
+  margin: 0 auto;
+  width: 15%;
+}
+
+.quiz-button:active {
+  background-color: rgba(130, 224, 130);
+}
+
+.quiz-button:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 32px;
+  margin-top: 15px;
+}
