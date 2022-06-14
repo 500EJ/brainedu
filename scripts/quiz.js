@@ -97,7 +97,7 @@ class Quiz {
     } else {
       message.innerText = `Unfortunately, you didn't pass the quiz. You need a score of at least 8 to pass, but you only answered ${this.score} of the 10 questions correctly.\nReview the video to learn more about how the brain works, or retake the quiz.`;
       document.querySelector(".return-home .return-home").innerText =
-        "Review video";
+        "Review Video";
       const retakes = document.querySelectorAll(".retake");
       for (let i = 0; i < retakes.length; i++) {
         retakes[i].style.display = "unset";

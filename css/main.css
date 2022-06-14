@@ -10,12 +10,30 @@ body {
   text-align: center;
 }
 
+h2 {
+  font-size: 18pt;
+}
+
+iframe {
+  max-width: 80%;
+}
+
+/* .shows {
+  max-width: 80%;
+} */
+
+.title {
+  font-size: 32px;
+  margin-top: 15px;
+}
+
 .quiz-button {
   background-color: lightgreen;
   border: 1px solid black;
   font-size: 20px;
   height: 40px;
   margin: 0 auto;
+  min-width: 132px;
   width: 15%;
 }
 
@@ -25,9 +43,4 @@ body {
 
 .quiz-button:hover {
   cursor: pointer;
-}
-
-.title {
-  font-size: 32px;
-  margin-top: 15px;
 }
