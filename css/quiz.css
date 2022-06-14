@@ -7,6 +7,7 @@ a {
 }
 
 body {
+  color: black;
   display: flex;
   flex-direction: column;
   font-family: Roboto, sans-serif;
@@ -78,16 +79,16 @@ h3 {
 
 .next-question {
   display: none;
-  min-width: 170px;
+  min-width: 173px;
 }
 
 .retake {
   display: none;
-  min-width: 125px;
+  min-width: 128px;
 }
 
 .return-home {
-  min-width: 136px;
+  min-width: 139px;
 }
 
 @media (max-width: 1040px) {

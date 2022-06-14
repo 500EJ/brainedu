@@ -18,10 +18,6 @@ iframe {
   max-width: 80%;
 }
 
-/* .shows {
-  max-width: 80%;
-} */
-
 .title {
   font-size: 32px;
   margin-top: 15px;
@@ -33,7 +29,7 @@ iframe {
   font-size: 20px;
   height: 40px;
   margin: 0 auto;
-  min-width: 132px;
+  min-width: 135px;
   width: 15%;
 }
 
